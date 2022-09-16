@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@400;700&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Roboto:ital,wght@0,400;0,500;1,300&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root{
+    --principal: #111;
+    --secundario: #444;
+    --terciario: #d5d5d5;
+    --cuarto: gray;
+}
+
+/*
+LIGHT THEME:
+    --principal: white;
+    --secundario: #eee;
+    --terciario: black;
+    --cuarto: gray;
+
+DARK THEME:
+    --principal: white;
+    --secundario: #eee;
+    --terciario: black;
+    --cuarto: gray;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: var(--principal);
+    color: var(--terciario);
+}
+
+h1{
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 1.2rem 0 0;
+}
+
+#description{
+    font-size: 1.5rem;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    color: var(--cuarto);
+    font-style: italic;
+    margin:  1.2rem 0;
+}
+
+main{
+    padding: 1rem;
+    margin: 30px 8px;
+    border-radius: 5px;
+    background-color: var(--secundario);
+}
+
+#img-div{
+    padding: 10px;
+    background-color: var(--principal);
+    display: flex;
+    flex-flow: column;
+    border-radius: 2px;
+}
+
+#image{
+    max-width: 90%;
+    align-self: center;
+    height: auto;
+    border-radius: 2px;
+}
+
+#img-caption{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    margin: 1rem 0;
+}
+
+ul{
+    margin: 2rem auto;
+    max-width: 55vw;
+}
+
+li{
+    margin: 1rem;
+    font-family: roboto, sans-serif;
+}
+
+#tribute-info{
+    width: 60vw;
+    margin: 2rem auto;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: Source Sans Pro;
+    font-size: 1.5rem;
+    margin: 2.5rem auto 2rem;
+    text-align: center;
+}
+
+#ul-prev-info{
+    text-align:center;
+    font-family: source sans pro, roboto;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration-color: gray;
+    color: orange;
+}
